@@ -85,6 +85,9 @@ body {
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
+.one{
+  width: 25%;
+}
 
 .dn {
   display: none;
@@ -193,6 +196,10 @@ height: 698px;
   background-position: center;
   margin: 0 auto;
 }
+.cloe_info{
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
 .m_t{
   width: 807px;
 height: 77px;;
@@ -235,14 +242,33 @@ flex-wrap: wrap;
   justify-content: center;
 }
 .ico{
-  width: 960px;
-height: 542px;
-top: 0.11px;
-left: 480px;
-margin-left:auto;
-flex-direction: row-reverse;
-
+  width: calc(100% - 437px);
 }
+.cloe_t{
+  width: 437px;
+  padding-right: 20px;
+}
+  .shop_p{
+    text-decoration: underline;
+  }
+  .s_img img{
+   transition: 0.5s;
+  }
+  .s_img:hover img{
+   transform: scale(1.1);
+  }
+  .s_img::before{
+   content: '';
+   position: absolute;
+   background: #000;
+   opacity: 0;
+   z-index: 1;
+   transition: 0.5s;
+  }
+  .s_img:hover::before{
+   opacity: 0.5;
+  }
+
 .c_txt{
   color: #000000;
   font-family: Roboto;
@@ -265,7 +291,6 @@ color:  #000000;
 
 }
 .f_tit{
-  width: 437px;
 height: 92px;
 top: -31.52px;
 left: -26.98px;
@@ -281,7 +306,6 @@ line-height: 31px;
 letter-spacing: 0em;
 text-align: right;
 color:#525252;
-max-width: ;
 }
 .e_tit{
 height: 20px;
@@ -291,10 +315,119 @@ display: block;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: #000000;
+    padding-left: 300px;
 }
 .shop_img{
   width: 85px;
 height: 22px;
 top: 315.13px;
 left: 305.02px;
+}
+.our_tit{
+  font-family: Cardo;
+font-size: 30px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+color:#3A3A3A;
+margin-bottom: 20px;
+
+}
+.our_p{
+  font-family: Cardo;
+font-size: 18px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+margin-bottom: 20px;
+}
+.img_our{
+  width: 1120px;
+height: 550px;
+top: 152px;
+justify-content: center;
+}
+.img{
+  justify-content: center;
+}
+.team_tit{
+  width: 1190px;
+height: 60px;
+top: 1px;
+left: 26px;
+font-family: Cardo;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 25px;
+color: #020202;
+}
+.team_p{
+  font-family: Cardo;
+font-size: 15px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+}
+.foot_img{
+  width: 95px;
+height: 95px;
+top: 0.48px;
+left: 115px;
+}
+.foot_ic{
+  font-family: Cardo;
+font-size: 24px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+
+}
+.foot_p{
+  width: 283px;
+height: 56px;
+top: 46.48px;
+left: 21px;
+font-family: Cardo;
+font-size: 15px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+}
+.cards{
+ border: #FFFFFF;
+ width: 360px;
+height: 370px;
+}
+.foot_io{
+  font-family: Cardo;
+font-size: 15px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+text-decoration: underline;
+justify-content: center;
+}
+.those_tit{
+  font-family: Cardo;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+text-align: center;
+margin-bottom: 30px;
 }

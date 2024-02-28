@@ -226,7 +226,7 @@ body {
 
 .cloe_info {
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .m_t {
@@ -283,15 +283,12 @@ height: 33px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.ico {
-  width: calc(100% - 437px);
+  padding-right: 35px;
 }
 
 .cloe_t {
   width: 437px;
-  padding-right: 20px;
+  padding-right: 25px;
 }
 
 .shop_p {
@@ -459,6 +456,9 @@ height: 33px;
   text-align: center;
   color: #000000;
   margin-top: 20px;
+}
+.point{
+  margin-top: 50px;
 }
 
 .foot_img {

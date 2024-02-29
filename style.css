@@ -292,7 +292,7 @@ height: 33px;
 
 .cloe_t {
   width: 437px;
-  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .shop_p {
@@ -330,9 +330,11 @@ height: 33px;
   text-align: right;
 
 }
+.pelican{
+  flex-wrap: nowrap;
+}
 .right {
   text-align: left;
-  margin-left: 15px;
 }
 .righ {
   font-family: Cardo;
@@ -341,7 +343,6 @@ height: 33px;
   font-weight: 400;
   line-height: 37px;
   text-align: left;
-  margin-left: 15px;
 }
 .c_tit {
   font-family: Cardo;
@@ -375,13 +376,9 @@ color: #F6F6F6;
   font-weight: 400;
   line-height: 31px;
   letter-spacing: 0em;
-  text-align: right;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 31px;
-  letter-spacing: 0em;
-  text-align: right;
+  text-align: left;
   color: #525252;
+  margin-bottom: 51px;
 }
 
 .e_tit {
@@ -392,7 +389,6 @@ color: #F6F6F6;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   color: #000000;
-  padding-left: 300px;
 }
 
 .shop_img {
@@ -419,7 +415,9 @@ color: #F6F6F6;
   margin-bottom: 25px;
   margin-top: 60px;
 }
-
+.cloe_t{
+  margin-left: 10px;
+}
 .our_p {
   font-family: Cardo;
   font-size: 18px;
@@ -568,4 +566,23 @@ color: #F6F6F6;
 
 .About {
   margin-right: 90px;
+}
+.pelican_txt2,
+.pelican_txt1,
+.pelican_tit{
+  text-align: right;
+}
+.pelican_txt1{
+  margin: 30px 0;
+}
+.pelican_left{
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.pelicans,
+.cloe{
+  padding: 20px;
+}
+.foot{
+  padding: 40px;
 }

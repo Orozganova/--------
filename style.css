@@ -503,13 +503,19 @@ height: 33px;
   text-align: center;
   
 }
+.cards{
+  flex-wrap: nowrap;
+}
 
 .card {
   background: #FFFFFF;
   width: 360px;
   height: 370px;
   margin-bottom: 180px
-  
+}
+.card_p
+{
+  color:#F6F6F6;
 }
 
 .foot_io {
@@ -523,7 +529,7 @@ height: 33px;
   text-decoration: underline;
   justify-content: center;
   margin-right: 1000px;
-  margin-bottom: 90px;
+  margin-top: 290px;
 }
 
 .those_tit {

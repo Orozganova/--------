@@ -97,6 +97,7 @@ body {
 
 .Faec {
   padding: 50px 0;
+  justify-content: space-between;
 }
 
 .sec_tit {
@@ -174,7 +175,7 @@ body {
   padding-top: 20px;
   margin-right: 550px;
   box-sizing: border-box;
-
+  justify-content: space-between;
 }
 
 .head_id {
@@ -287,7 +288,8 @@ height: 33px;
   flex-wrap: wrap;
   justify-content: center;
   padding-right: 45px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  
 }
 
 .cloe_t {
@@ -585,4 +587,22 @@ color: #F6F6F6;
 }
 .foot{
   padding: 40px;
+  margin-bottom: 50px;
+}
+.footer_link{
+margin: 15px 0;
+text-align: center;
+}
+
+.footer_cards{
+  justify-content: space-around;
+}
+.footer_btn{
+  color: black;
+  border:  1px solid#000;
+  background: white;
+  margin: 30px;
+}
+footer{
+padding: 50px 80px;
 }

@@ -390,6 +390,12 @@ height: 33px;
   top: 315.13px;
   left: 305.02px;
 }
+.learn{
+  text-decoration: underline;
+  margin-left: 140px;
+  margin-top: 20px;
+  color: #000000;
+}
 
 .our_tit {
   font-family: Cardo;
@@ -464,9 +470,9 @@ height: 33px;
 .foot_img {
   width: 95px;
   height: 95px;
-  margin-left: 100px;
-  margin-top: 150px;
-  margin-bottom: 50px;
+  margin-left: 140px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .foot_ic {
@@ -478,8 +484,8 @@ height: 33px;
   text-align: center;
   color: #000000;
   justify-content: center;
-  margin-left: 100px;
-  margin-bottom: 30px;
+  margin-right: 10px;
+
 
 }
 
@@ -493,15 +499,17 @@ height: 33px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
+  margin-left: 40px;
   text-align: center;
   
 }
 
-.cards {
-  border: #FFFFFF;
+.card {
+  background: #FFFFFF;
   width: 360px;
   height: 370px;
   margin-bottom: 180px
+  
 }
 
 .foot_io {

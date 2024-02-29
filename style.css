@@ -652,5 +652,16 @@ footer{
 padding: 50px 80px;
 }
 .ic_p{
-  
+  width: 66px;
+height: 28px;
+top: -0.39px;
+left: 0.02px;
+display: flex;
+justify-content: center;
+}
+.copy_tit{
+  padding: 50px;
+}
+.term{
+  padding: 50px 0;
 }
